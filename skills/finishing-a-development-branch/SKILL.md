@@ -192,9 +192,5 @@ git worktree remove <worktree-path>
 
 ## Integration
 
-**Called by:**
-- **subagent-driven-development** (Step 7) - After all tasks complete
-- **executing-plans** (Step 5) - After all batches complete
-
-**Pairs with:**
-- **using-git-worktrees** - Cleans up worktree created by that skill
+Use this skill when the user explicitly wants to wrap up branch, PR, or cleanup work.
+It is not an automatic step in the default execution workflows.

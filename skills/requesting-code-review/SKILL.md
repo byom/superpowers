@@ -11,10 +11,10 @@ Dispatch superpowers:code-reviewer subagent to catch issues before they cascade.
 
 ## When to Request Review
 
-**Mandatory:**
-- After each task in subagent-driven development
-- After completing major feature
+**Common triggers:**
+- After completing a major feature
 - Before merge to main
+- When a change is risky enough that review could change the decision
 
 **Optional but valuable:**
 - When stuck (fresh perspective)
@@ -76,18 +76,10 @@ You: [Fix progress indicators]
 
 ## Integration with Workflows
 
-**Subagent-Driven Development:**
-- Review after EACH task
-- Catch issues before they compound
-- Fix before moving to next task
-
-**Executing Plans:**
-- Review after each batch (3 tasks)
-- Get feedback, apply, continue
-
-**Ad-Hoc Development:**
-- Review before merge
-- Review when stuck
+Use this skill ad hoc when an explicit review pass would help:
+- Before merge
+- When stuck
+- After a risky or high-impact change
 
 ## Red Flags
 
